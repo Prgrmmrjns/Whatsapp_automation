@@ -9,11 +9,13 @@ Whatsapp replies from ChatGPT
 * Create a OpenAI account and a Pushbullet accout, both are for free
 
 ## Notes
-* Note that both ChatGPT and Pushbullet have its limits regarding sending requests. 
-  E.g. ChatGPT refuses to handle more than ~ 30 requests in an hour
+* Before you run the script the first time, create a .env file where you put your chatgpt key and pushbullet key, 
+  as well as the phone numbers of your contacts
 * You need to login via the QR code scan to whatsappweb on your desktop the first time you start the script.
   Afterwards the login is done automatically
-  
+* Note that both ChatGPT and Pushbullet have its limits regarding sending requests. 
+  E.g. ChatGPT refuses to handle more than ~ 30 requests in an hour
+
 ## Next steps
 * Deploy code on a website
 * Bypass initial whatsappweb login via QR code
